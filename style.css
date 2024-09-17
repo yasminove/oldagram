@@ -1,0 +1,82 @@
+body {
+    font-family: "source-sans";
+    width: 375px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "source-sans";
+    src: url('SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: "source-sans";
+    src: url('SourceSansPro-Bold.ttf');
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #c4c4c4;
+    
+}
+
+.van-gogh-img {
+    border-radius: 50%;
+    margin-top: 3px;
+    text-align: left;
+    height: 34px;
+    margin: 10px;
+}
+
+.poster-info {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.address {
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.icon {
+    margin-right: 12px;
+    margin-top: 10px;
+    width: 23px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 0.6;
+}
+
+.likes-count {
+    margin-top: 7px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 9px;
+}
+
+.username {
+    font-weight: 700;
+    
+}
+
+.user-caption {
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 7px;
+}
